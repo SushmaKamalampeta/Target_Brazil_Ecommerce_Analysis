@@ -6,14 +6,15 @@ Data is available in 8 CSV files:
 **customers.csv geolocation.csv order_items.csv payments.csv reviews.csv orders.csv products.csv sellers.csv**
 
 Each feature or columns of different CSV files are described below:
-****The customers.csv contains the following features: ****
+
+**The customers.csv contains the following features:**
 customer_id: Id of the consumer who made the purchase. 
 customer_unique_id: Unique ID of the consumer. 
 customer_zip_code_prefix: Zip Code of the location of the - consumer.
 customer_city: Name of the City from where an order is made. 
 customer_state :State Code from where order is made(Ex- sao paulo-SP). 
 
-**The sellers.csv contains the following features: **
+**The sellers.csv contains the following features:**
 seller_id: Unique ID of the seller
 registered seller_zip_code_prefix: Zip Code of the location of the seller. 
 seller_city: Name of the City of the seller. 
@@ -33,7 +34,7 @@ geolocation_zip_code_prefix: first 5 digits of zip code
 geolocation_lat: latitude geolocation_lng: longitude
 geolocation_city: city name geolocation_state: state 
 
-**The payments.csv contains following features: **
+**The payments.csv contains following features:**
 order_id: A unique id of an order made by the consumers. 
 payment_sequential: sequences of the payments made in case of EMI.
 payment_type: mode of payment used.
